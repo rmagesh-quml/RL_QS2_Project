@@ -1,0 +1,45 @@
+# Core runtime dependencies for qec_rl.
+# Install with:
+#   pip install -r requirements.txt
+#
+# Or install the package directly (recommended — also handles the src layout):
+#   pip install -e ".[dev]"
+#
+# Python >= 3.10 required.
+
+# Quantum simulation
+qiskit>=1.0
+qiskit-aer>=0.13
+
+# Numerical computing
+numpy>=1.24
+
+# Reinforcement learning
+gymnasium>=0.29
+stable-baselines3>=2.2
+torch>=2.0
+
+# Classical QEC baseline
+pymatching>=2.1
+
+# Plotting
+matplotlib>=3.7
+
+# Progress bars
+tqdm>=4.65
+
+# -----------------------------------------------
+# Development / testing extras (optional)
+# Install with: pip install -r requirements-dev.txt
+# or:           pip install -e ".[dev]"
+# -----------------------------------------------
+# pytest>=7.4
+# pytest-cov>=4.1
+# ruff>=0.1
+
+# -----------------------------------------------
+# Notebook extras (optional)
+# Install with: pip install -e ".[notebook]"
+# -----------------------------------------------
+# jupyter>=1.0
+# ipykernel>=6.25
